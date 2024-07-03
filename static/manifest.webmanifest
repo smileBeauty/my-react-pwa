@@ -1,0 +1,74 @@
+{
+  "name": "normal name",
+  "short_name": "short name",
+  "author": "smileBeauty",
+  "developer": {
+    "name": "smileBeauty smileBeauty",
+    "url": "https://github.com/smileBeauty"
+  },
+  "start_url": "/about2",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "white",
+  "theme_color": "white",
+  "lang": "zh-cn",
+  "description": "A simply readable Hacker News app.",
+  "version": "0.1",
+  "id": "b369fa22b7ac1c6ba4f5179c5e709bad",
+  "icons": [
+    {
+      "src": "/static/img/music-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/music-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/music-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/music-168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/music-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "shortcut1",
+      "url": "/shortcut1",
+      "icons": [
+        {
+          "src": "/static/img/movie-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "shortcut2",
+      "url": "/shortcut2",
+      "icons": [
+        {
+          "src": "/static/img/movie-16.png",
+          "sizes": "16x16",
+          "type": "image/png"
+        },
+        {
+          "src": "/static/img/movie-64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
