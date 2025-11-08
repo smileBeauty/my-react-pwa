@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 const Home = lazy(() => import("@/page/home"));
 const ErrorPage = lazy(() => import("@/page/error-page"));
 const About = lazy(() => import("@/page/about"));
+const PriorityDemo = lazy(() => import("@/page/priority-demo"));
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,14 @@ const router = createBrowserRouter([
     element: (
       <Suspense fallback={<div>loading</div>}>
         <About />
+      </Suspense>
+    ),
+  },
+  {
+    path: "/priority-demo",
+    element: (
+      <Suspense fallback={<div>loading</div>}>
+        <PriorityDemo />
       </Suspense>
     ),
   },

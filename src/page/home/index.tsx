@@ -12,6 +12,9 @@ const Home = () => {
         <div>
           <Link to="/about2">turn to about2</Link>
         </div>
+        <div>
+          <Link to="/priority-demo">turn to priority-demo</Link>
+        </div>
       </div>
     </div>
   );
